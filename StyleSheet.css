@@ -1,0 +1,130 @@
+header{
+    text-align: center;
+}
+header h1{
+    display: inline-block;
+  font-family: 'Gabriela', serif;
+  color: #000;
+  font-size: 3.5em;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0.5em 0.2em 0.8em 0.5em;
+
+}
+
+body{
+    background: url(Art/Background.jpg);
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-size: 100%; 
+    color:black;
+    margin:0;
+    padding:20px;
+}
+.main{
+    padding-left: 5%;
+    font-size: 150%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+}
+
+h2{
+    padding-top: 50px;
+    font-size: 200%;
+    text-align: center;
+}
+body.h1{
+    color: black;
+    text-align: center;
+}
+.Large{
+    color: black;
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#slider{
+    position: relative;
+    width :100%;
+    height: 600px;
+}
+.slide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+img{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+.Home{
+    left: 10%;
+    height: 10%;
+    width: 30%;
+}
+.GameImage{
+    left: 10%;
+    height:5%;
+    width: 15%;
+}
+
+.icon{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.box{
+    overflow: hidden;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #110700;
+}
+.InnerBox{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    width: 98%;
+    height: 96%;
+    background-color: #f0f0f0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    margin: 0 15px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active{
+    filter:brightness(0);
+  }
+  .dot:hover{
+    filter:brightness(0.5);
+  }
+  #Credit{
+      position: absolute;
+      bottom: 5%;
+  }
+  #Contact{
+      padding-bottom: 5%;
+  }
+  
+
+
+
