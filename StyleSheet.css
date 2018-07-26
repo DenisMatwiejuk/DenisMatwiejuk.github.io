@@ -27,6 +27,7 @@ body{
     font-size: 150%;
     padding-bottom: 2%;
     padding-right: 5%;
+    text-align: justify;
 }
 
 h2{
@@ -87,20 +88,13 @@ img{
     overflow: hidden;
     position: absolute;
     top: 5%;
-    left: 10%;
-    width: 80%;
+    left: 17.5%;
+    width: 65%;
     height: 100%;
     max-width: 100%;
     max-height: 100%;
-    background-color: #110700;
-}
-.InnerBox{
-    position: absolute;
-    top: 2%;
-    left: 1%;
-    width: 98%;
-    height: 96%;
-    background-color: #f0f0f0;
+    background-color: white;
+    border: 10px solid black;
 }
 
 .dot {
@@ -124,6 +118,28 @@ img{
   #Contact{
       padding-bottom: 5%;
   }
+footer
+{
+    
+    clear: both;
+    border: 1px groove #aaaaaa;
+    background: white;
+    color: black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    left: 10%;
+    width: 80%;
+    border: 5px solid black;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
   
 
 
