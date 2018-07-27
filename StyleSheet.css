@@ -15,9 +15,9 @@ header h1{
 body{
     background: url(Art/Background.jpg);
     background-attachment: fixed;
-    
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%; 
+    background-size: cover; 
     color:black;
     margin:0;
     padding:20px;
@@ -93,8 +93,9 @@ img{
     height: 100%;
     max-width: 100%;
     max-height: 100%;
-    background-color: white;
-    border: 10px solid black;
+    border: 2px solid black;
+    box-shadow: 10px;
+    background: linear-gradient(rgb(177, 177, 177) ,white);
 }
 
 .dot {
@@ -120,7 +121,6 @@ img{
   }
 footer
 {
-    
     clear: both;
     border: 1px groove #aaaaaa;
     background: white;
@@ -135,6 +135,8 @@ footer
     left: 10%;
     width: 80%;
     border: 5px solid black;
+    background: linear-gradient(white, rgb(177, 177, 177));
+
 }
 footer a{
     text-decoration: none;
