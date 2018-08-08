@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+    font-size: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    top: 0;
+    margin-top: 0%;
+    position: fixed;
+    width: 100%;
+    padding: 1%;
+    color: white;
+    background-color: #18121e;
+    overflow: hidden;
+}
+#nav h3{
+    float: left;
+    text-align: left;
+}
+
+ul{
+    margin-right: 5%;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+}
+li{
+    margin: 0 20px 0 0;
+    display: inline;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+li:hover{
+    color: #eac67a;
+}
+
+.Content{
+    margin-top: 8%;
+    text-align: center;
+    
+}
+#LandingPage{
+    width: 100%;
+    height: 85vh;
+    display: inline-block;
+    color: #984b43;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #233237;
+}
+#LandingPage h1{
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+#LandingPage h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#AboutMe{ 
+    padding-top: 1%;
+    width: 100%;
+    height: 85vh;
+}
+h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 10% 0 10%;
+}
+
+#Projects{
+    padding-top: 1%;
+    width: 100%;
+    height: 85vh;
+    color: #984b43;
+    background-color: #233237;
+}
+
+.projLeft{
+    width: 50%;
+    float: left;
+    left: 10%;
+}
+.projRight{
+    width: 50%;
+    float:right;
+    right:10%;
+}
+
+#WorkEXP{
+    padding-top: 1%;
+    width: 100%;
+    height: 85vh;
+}
+
+#ContactMe{
+    padding-top: 1%;
+    width: 100%;
+    height: 85vh;
+    color: #984b43;
+    background-color: #233237;
+}
+#Footer{
+    width: 100%;
+    height: 3vh;
+    
+}
+#Footer p{
+    float: right;
+    text-align: right;
+}
+#Footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
