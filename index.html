@@ -1,116 +1,91 @@
-<!DOCTYPE html>
+<!Doctype HTML>
 <html>
-
 <head>
+    <title>Denis' Portfolio</title>
+    <link rel="Stylesheet" type="text/css" href="CSS.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="Stylesheet" type="text/css" href="StyleSheet.css">
-    <link rel="icon" href="Art/document.png">
-<title>Denis' Portfolio</title>
-<div class="header">
-    
-</div>
 </head>
 <header>
-    <h1>Denis Matwiejuk</h1>
+    <div id="nav">
+            <h3>Denis</h3>
+            <br>
+            <h3>Matwiejuk</h3>
+        <ul>
+            <li><a href="#anchorLanding" >Home</a></li>
+            <li><a href="#anchorAboutMe">About Me</a></li>
+            <li><a href="#anchorProjects">Projects</a></li>
+            <li><a href="#anchorWork">Work</a></li>
+            <li><a href="#anchorContact">Contact Me</a></li>
+        </ul>
+       
+    </div>
 </header>
 <body>
-        <div style = "text-align: center">
-            <img class= "dot" src="Art/House.png" alt="Person" onclick="currentSlide(1)">
-            <img class= "dot" src="Art/Person.png" alt="House" onclick="currentSlide(2)">
-            <img class= "dot" src="Art/document.png" alt="document" onclick="currentSlide(3)">
-            <img class= "dot" src="Art/Phone.png" alt="Phone" onclick="currentSlide(4)">
-        </div>
-
-    <div id="slider">
-        <div class="slide">
-            <div class="box">
-                    <p class="Large">
-                        Game Developer & Software Developer
-                    </p>
-                    <p class="main">
-                            Hi, I'm Denis Matwiejuk, I'm a recent graduate student hoping 
-                            to become a games/software developer in the future.
-                    </p>
-                    <div>
-                    <img class="Home" src="Art/GameImage1.png" alt="CodeImg1" style="height: 320px;">
-                    <img class="Home" src="Art/GameImage2.png" alt="CodeImg2" style="height: 320px;">
-                    <img class="GameImage" src="Art/GameImage.png" alt="GameImage" style="height: 320px;">
-                    </div>
-            </div>
-        </div>
-        <div class="slide">
-        <div class="box">
-                    <p class="Large">About Me</p>
-                    <p class="main">
-                        I started coding during highschool where my first project was to make a calculator
-                        using JavaScript, since then I have expanded my knowledge in the field 
-                        as well as learning other languages. The reason why I chose to study and pursue a career in programming
-                        was video games; I played a lot of video games when I was younger, and I've always wanted to develop them.
-                         <br>
-                         <br>
-                        I haven't made many of my projects public as I'm comfortable with programming, I'm still trying to improve on
-                        drawing, modeling and animations.
-                        So the only works I've made public are the ones that I made and finished during university,
-                        even though they could still use some work.
-                        Now that I've finished university and am currently looking for work around the london area, 
-                        I've also had more spare time to work on my projects.
-                        I'm always looking for new challenges and new things to learn, in game development, I've beening 
-                        working with Unity since early 2017 and I've been loving it. I've also recently started learning 
-                        how to use the unreal engine.
-                        <br><br>
-                        In the future I see myself working on large and small scale projects as a game developer, working with an amazing 
-                        team, full of talented programmers and designers. 
-                    </p>
-
-            </div>
-        </div>
-        <div class="slide">
-            <div class="box">
-                    <p class="Large">My Work</p>
-                    <p class="main">
-                        Lokir's labyrinth is a Metroidvania type project done during my time at university.
-                        This game was made as my final year projects for university.
-                        The game follows Lokir who is a adventurer that was heading towards a castle in atop a mountain when he
-                        falls into a labyrinth from which he must find a way out.
-                        <br>
-                        The game was made using Unity engine and the source code can be downloaded <a href="https://gitlab.com/Denisar/Lokirs_labyrinth" target="_blank">here</a>.
-                    </p>
-                    <p class="main">
-                        Blurgrio is a bullet hell game that is more wave based instead of having the player
-                        continuously moving forward. The game follows the unnamed pilot as they are the last of their fleet to live
-                        and must now find a way of defeating the enemy fleet alone.
-                        <br>
-                        The game was made using the Monogame engine and the source code can be downloaded <a href="https://gitlab.com/Denisar/TurnBasedSpaceShooter" target="_blank">here</a>.
-                    </p>
-            </div>
-        </div>
-        <div class="slide">
-                <div class="box">
-                        <p class="Large">Contact</p>
-                        <p class="main" id="Contact">
-                            Contact me via email: denis.pawel.matwiejuk@gmail.com
-                            <br><br>
-                            Or check out my 
-                            <a href="https://twitter.com/Denismatwiejuk">Twitter</a><br><br>
-                            Or My
-                             <a href="https://www.linkedin.com/in/denis-matwiejuk-78018514a/">Linkedin</a><br><br>
-                            Or my
-                            <a href="https://gitlab.com/Denisar">Gitlab</a>
-                            <br>
-                        </p>
-                        
-                        <p class="main" id="Credit">
-                            Background by <a href="https://www.deviantart.com/darkoantolkovic" target="_blank">darkoantolkovic</a>
-                               
-                        </p>
-                    </div>
-            </div>
+<div class="Content">
+    <div id="LandingPage" >
+    <div id="anchorLanding"></div>
+    <h1>Denis Matwiejuk </h1>
+    <h2>Software Developer & Game Developer</h2>
     </div>
-    <footer>
-        Copyright © 2018 <a href="denismatwiejuk.github.io">Denis Matwiejuk</a>. All Rights Reserved.
-    </footer>
-    <script src="functions.js"></script>
-</body>
+    <div id="AboutMe" >
+        <div id="anchorAboutMe"></div>
+        <h1>About Me</h1>
+        <p>
+            I started coding during highschool where my first project was to make a calculator
+            using JavaScript, since then I have expanded my knowledge in the field 
+            as well as learning other languages. The reason why I chose to study and pursue a career in programming
+            was video games; I played a lot of video games when I was younger, and I've always wanted to develop them.
+            <br><br>
+            I haven't made many of my projects public as I'm comfortable with programming, I'm still trying to improve on
+            drawing, modeling and animations.
+            So the only works I've made public are the ones that I made and finished during university,
+            even though they could still use some work.
+            Now that I've finished university and am currently looking for work around the london area, 
+            I've also had more spare time to work on my projects.
+            I'm always looking for new challenges and new things to learn, in game development, I've beening 
+            working with Unity since early 2017 and I've been loving it. I've also recently started learning 
+            how to use the unreal engine.<br><br>
+            In the future I see myself working on large and small scale projects as a game developer, working with an amazing 
+            team, full of talented programmers and designers.
+        </p>
+    </div>
 
+    <div id="Projects">
+        <div id="anchorProjects"></div>
+        <h1>Projects</h1>
+        <div class="projLeft">        
+            <h2 class="left">Lokirs lab</h2>
+            <p class="left"> dank game</p>
+        </div>
+        <div class="projRight">
+            <h2 class="right">Blorg</h2>
+            <p class="right">Another Dank game</p>
+        </div>
+    </div>
+    <div id="WorkEXP">
+        <div id="anchorWork"></div>
+        <h1>Work</h1>
+        <h2>Garden Catering</h2>
+        <p>I cooked</p>
+        <h2>QBS ltd</h2>
+        <p>I filed shit</p>
+    </div>
+
+    <div id="ContactMe">
+        <div id="anchorContact"></div>
+        <h1>Contact Me</h1>
+        <p>Email</p>
+        <p>Twitter</p>
+        <p>LinkedIn</p>
+        <p>Download my CV</p>
+        <p>Gitlab</p>
+
+    </div>
+    <div id="Footer">
+        <p> Copyright © 2018 <a href="denismatwiejuk.github.io">Denis Pawel Matwiejuk</a>. All Rights Reserved.</p>
+    </div>
+</div>
+
+</body>
 
 </html>
