@@ -68,7 +68,8 @@ li{
     padding-top: 1%;
     width: 100%;
     background-color: white;
-    min-height: 95vh;
+    min-height: 60vh;
+    overflow-x: hidden;
 }
 h1{
     font-weight: bold;
@@ -99,12 +100,12 @@ p{
     min-height: 95vh;
     color: #984b43;
     padding: 10px;
+    overflow-x: hidden;
 }
 .imgL{
     float: left;
     margin-left: 10%;
-    size: auto;
-    height:400px;
+    height:420px;
     width: 300px;
 }
 
@@ -114,7 +115,8 @@ p{
     padding-top: 1%;
     width: 100%;
     background-color: white;
-    min-height: 95vh;
+    min-height: 60vh;
+    overflow-x: hidden;
 }
 #WorkEXP h2{
     margin: 0 10% 0 10%;
@@ -126,7 +128,7 @@ p{
     overflow: auto;
     padding-top: 1%;
     width: 100%;
-    min-height: 91vh;
+    min-height: 50vh;
     color: #984b43;
 }
 #ContactMe p{
