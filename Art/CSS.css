@@ -4,9 +4,11 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #nav{
     top: 0;
     margin-top: 0%;
+    position: fixed;
     width: 100%;
     padding: 0px;
     color: white;
@@ -38,16 +40,20 @@ li{
 #LandingPage{
     overflow: auto;
     width: 100%;
-    min-height: 85vh;
+    line-height: 80vh;
+    min-height: 90vh;
     color: #984b43;
+    font-size: 2.5rem;
     text-align: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
+
 #LandingPage h1{
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 7rem;
     vertical-align: middle;
     line-height: normal;
 }
@@ -155,46 +161,67 @@ a:hover{
     text-decoration: none;
     color: #eac67a;
 }
-
-@media only screen and (min-width: 601px) {
-    #LandingPage h1{
-        font-size: 7rem;
-    }
-    
-    #LandingPage h2{
-        font-size:2.5rem;
-    }
-    h1{
-        font-size: 2.5rem;
-    }
-    h2{
-        font-size: 2rem;
-    }
-    p, .Content h3 {
-        font-size: 1.5rem;
-    }
-
+#anchorLanding{
+    display: block;
+    position: relative;
+    top: -130px;
+    visibility: hidden;
+}
+#anchorAboutMe{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+#anchorProjects{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+#anchorWork{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+#anchorContact{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
 }
 
-@media only screen and (max-width: 600px) {
-    #LandingPage{
-        min-height: 50vh;
-    }
-    #LandingPage h1{
-        font-size: 3rem;
-    }
-    
-    #LandingPage h2{
-        font-size: 1.2rem;
-    }
-    h1{
-        font-size: 1.7rem;
-    }
-    h2{
-        font-size: 1.2rem;
-    }
-    p, .Content h3 {
-        font-size: 0.8rem;
+@media only screen and (min-width: 858px) {
+    p {
+        font-size: 5px;
     }
 }
+
+@media only screen and (min-width: 780px) {
+    p {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (min-width: 702px) {
+    p {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (min-width: 724px) {
+    p {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width: 623px) {
+    p {
+        font-size: 5px;
+    }
+}
+
+
+
 
